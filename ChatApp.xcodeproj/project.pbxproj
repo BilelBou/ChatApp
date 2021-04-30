@@ -10,14 +10,12 @@
 		24D7F3C6263C30CD00C15E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F3C5263C30CD00C15E25 /* AppDelegate.swift */; };
 		24D7F3C8263C30CD00C15E25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F3C7263C30CD00C15E25 /* SceneDelegate.swift */; };
 		24D7F3CA263C30CD00C15E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F3C9263C30CD00C15E25 /* ViewController.swift */; };
-		24D7F3CD263C30CD00C15E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D7F3CB263C30CD00C15E25 /* Main.storyboard */; };
 		24D7F3CF263C30CF00C15E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D7F3CE263C30CF00C15E25 /* Assets.xcassets */; };
 		24D7F3D2263C30CF00C15E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D7F3D0263C30CF00C15E25 /* LaunchScreen.storyboard */; };
 		24D7F3DD263C30D000C15E25 /* ChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F3DC263C30D000C15E25 /* ChatAppTests.swift */; };
 		24D7F3E8263C30D000C15E25 /* ChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F3E7263C30D000C15E25 /* ChatAppUITests.swift */; };
 		24D7F3FD263C310000C15E25 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F3F8263C310000C15E25 /* Stylesheet.swift */; };
 		24D7F3FE263C310000C15E25 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F3F9263C310000C15E25 /* UIColor.swift */; };
-		24D7F3FF263C310000C15E25 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F3FA263C310000C15E25 /* Controller.swift */; };
 		24D7F400263C310000C15E25 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F3FB263C310000C15E25 /* Extensions.swift */; };
 		24D7F401263C310000C15E25 /* Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F3FC263C310000C15E25 /* Standard.swift */; };
 		404968BA861BEEEF9DCCAFBD /* Pods_ChatApp_ChatAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DE0C003C4196E39434A0B2 /* Pods_ChatApp_ChatAppUITests.framework */; };
@@ -48,7 +46,6 @@
 		24D7F3C5263C30CD00C15E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24D7F3C7263C30CD00C15E25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		24D7F3C9263C30CD00C15E25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		24D7F3CC263C30CD00C15E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24D7F3CE263C30CF00C15E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24D7F3D1263C30CF00C15E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24D7F3D3263C30CF00C15E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,7 +57,6 @@
 		24D7F3E9263C30D000C15E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24D7F3F8263C310000C15E25 /* Stylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stylesheet.swift; sourceTree = "<group>"; };
 		24D7F3F9263C310000C15E25 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		24D7F3FA263C310000C15E25 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		24D7F3FB263C310000C15E25 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		24D7F3FC263C310000C15E25 /* Standard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Standard.swift; sourceTree = "<group>"; };
 		43DFFBA4B4616C39A7A417EC /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,15 +132,13 @@
 		24D7F3C4263C30CD00C15E25 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				24D7F405263C328200C15E25 /* Resources */,
+				24D7F404263C327C00C15E25 /* ViewModels */,
+				24D7F403263C327300C15E25 /* Controllers */,
+				24D7F402263C326100C15E25 /* Delegates */,
 				24D7F3F7263C310000C15E25 /* CommonUI */,
 				24D7F3F6263C30E700C15E25 /* Models */,
 				24D7F3F5263C30D900C15E25 /* Views */,
-				24D7F3C5263C30CD00C15E25 /* AppDelegate.swift */,
-				24D7F3C7263C30CD00C15E25 /* SceneDelegate.swift */,
-				24D7F3C9263C30CD00C15E25 /* ViewController.swift */,
-				24D7F3CB263C30CD00C15E25 /* Main.storyboard */,
-				24D7F3CE263C30CF00C15E25 /* Assets.xcassets */,
-				24D7F3D0263C30CF00C15E25 /* LaunchScreen.storyboard */,
 				24D7F3D3263C30CF00C15E25 /* Info.plist */,
 			);
 			path = ChatApp;
@@ -187,11 +181,43 @@
 			children = (
 				24D7F3F8263C310000C15E25 /* Stylesheet.swift */,
 				24D7F3F9263C310000C15E25 /* UIColor.swift */,
-				24D7F3FA263C310000C15E25 /* Controller.swift */,
 				24D7F3FB263C310000C15E25 /* Extensions.swift */,
 				24D7F3FC263C310000C15E25 /* Standard.swift */,
 			);
 			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		24D7F402263C326100C15E25 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				24D7F3C5263C30CD00C15E25 /* AppDelegate.swift */,
+				24D7F3C7263C30CD00C15E25 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		24D7F403263C327300C15E25 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24D7F3C9263C30CD00C15E25 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		24D7F404263C327C00C15E25 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		24D7F405263C328200C15E25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24D7F3D0263C30CF00C15E25 /* LaunchScreen.storyboard */,
+				24D7F3CE263C30CF00C15E25 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		C632381EDEA9D61782D25B05 /* Pods */ = {
@@ -204,7 +230,6 @@
 				B633A18581B57BBBC20BA36C /* Pods-ChatAppTests.debug.xcconfig */,
 				FA44F9C1B7031B3068E87BDE /* Pods-ChatAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -316,7 +341,6 @@
 			files = (
 				24D7F3D2263C30CF00C15E25 /* LaunchScreen.storyboard in Resources */,
 				24D7F3CF263C30CF00C15E25 /* Assets.xcassets in Resources */,
-				24D7F3CD263C30CD00C15E25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +438,6 @@
 				24D7F3FD263C310000C15E25 /* Stylesheet.swift in Sources */,
 				24D7F401263C310000C15E25 /* Standard.swift in Sources */,
 				24D7F3C6263C30CD00C15E25 /* AppDelegate.swift in Sources */,
-				24D7F3FF263C310000C15E25 /* Controller.swift in Sources */,
 				24D7F3C8263C30CD00C15E25 /* SceneDelegate.swift in Sources */,
 				24D7F3FE263C310000C15E25 /* UIColor.swift in Sources */,
 				24D7F400263C310000C15E25 /* Extensions.swift in Sources */,
@@ -453,14 +476,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		24D7F3CB263C30CD00C15E25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24D7F3CC263C30CD00C15E25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		24D7F3D0263C30CF00C15E25 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
